@@ -40,10 +40,12 @@ Retrain the Machine model on the updated labels.
 
 
 ** Experiments **
+
 Task 1: Handrittwen Equation Dicipherment
 In this task, equations are constructed from images of symbols (“0”, “1”, “+” and “=”), and they are generated with unknown operation rules, each example is associated with a label that indicates whether the equation is correct. A machine is tasked with learning from a training set of labelled equations, and the trained model is expected to predict unseen equations correctly. Thus, the machine needs to learn image recognition (perception) and mathematical operations for calculating the equations (reasoning) simultaneously. The images for "0"s and "1"s are taken from the MNIST dataset.
 
 ** Task 2: Random Symbol Equation Dicipherment **
+
 In the earlier task, equations are created using images from the MNIST Images. While in this task, equations were constructed from randomly selected characters sets of the Omniglot dataset, i.e, a random Omniglot symbol is used to represent '1', '0', '+', '=' each.
 
 We use a CNN as the Machine Learning model for these tasks.
